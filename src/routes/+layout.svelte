@@ -16,6 +16,9 @@
 		<p>
 			visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to learn about SvelteKit
 		</p>
+		<p>
+			also visit my home-page <a href="https://mk-dev.org">mk-dev.org</a> to check it out
+		</p>
 	</footer>
 </div>
 
