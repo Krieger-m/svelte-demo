@@ -36,8 +36,13 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
+		<a style="display: flex; flex-direction: column;" href="https://github.com/sveltejs/kit">
+			<img src={github} alt="svelte GitHub" />
+			<p>Svelte</p>
+		</a>
+		<a style="display: flex; flex-direction: column; margin-top: 50px;" href="https://github.com/krieger-m">
+			<img src={github} alt="krieger-m GitHub" />
+			<p>Krieger-m</p>
 		</a>
 	</div>
 </header>
@@ -51,6 +56,9 @@
 	.corner {
 		width: 3em;
 		height: 3em;
+		margin-top: 40px;
+		margin-right: 20px;
+		width: fit-content;
 	}
 
 	.corner a {
